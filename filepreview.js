@@ -4,13 +4,13 @@
 
 */
 
-var child_process = require('child_process');
-var crypto = require('crypto');
-var async = require('async');
-var path = require('path');
-var fs = require('fs');
-var os = require('os');
-var mimedb = require('./db.json');
+var child_process = require('child_process'),
+    crypto        = require('crypto'),
+    async         = require('async'),
+    path          = require('path'),
+    fs            = require('fs'),
+    os            = require('os'),
+    mimedb        = require('./db.json');
 
 module.exports = {
   generate: function(input_original, output, options, callback) {
